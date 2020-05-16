@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+    <div class="content-container">
+        <div class="content">
+            <div class="score-board">
+                <p class="score"><span id="userScore"></span>:<span id="compScore"></span></p>
+                <div class="user-score-label">
+                    <p>User</p>
+                </div>
+                <div class="comp-score-label">
+                    <p>Comp</p>
+                </div>
+            </div>
+            <h2 id="result">Are you Excited ? ! ! !</h2>
+            <div class="choices">
+                <img src="images/rock.png" alt="Rock" onclick="getUserChoices(this)" class="choice">
+                <img src="images/paper.png" alt="Paper" onclick="getUserChoices(this)" class="choice">
+                <img src="images/scissors.png" alt="Scissors" onclick="getUserChoices(this)" class="choice"
+                    style="padding:2px;">
+            </div>
+            <h2 class="description">Make your move !</h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>
