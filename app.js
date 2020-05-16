@@ -21,6 +21,8 @@ function getUserChoices(e) {
 function determinedResult(user, comp) {
     //concatenate 2 variable strings together for determine winner
     var checkWinner = user + comp;
+
+    //Use switch statement to see who win the match
     switch (checkWinner) {
         case "RockScissors":
         case "PaperRock":
